@@ -22,14 +22,14 @@
   <!-- ========== NOUVELLE SECTION AJOUTÉE POUR NEXUS ========== -->
   <distributionManagement>
     <repository>
-      <id>diana-releases</id>
+      <id>nexus-releases</id>
       <name>Releases Repository</name>
-      <url>http://localhost:8081/repository/maven-releases/</url>
+      <url>http://localhost:8081/repository/diana-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>diana-snapshot</id>
+      <id>nexus-snapshots</id>
       <name>Snapshots Repository</name>
-      <url>http://localhost:8081/repository/maven-snapshots/</url>
+      <url>http://localhost:8081/repository/diana-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
   <!-- ========== FIN DE LA NOUVELLE SECTION ========== -->
