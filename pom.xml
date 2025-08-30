@@ -24,12 +24,12 @@
     <repository>
       <id>nexus-releases</id>
       <name>Releases Repository</name>
-      <url>http://localhost:8081/repository/diana-releases/</url>
+      <url>http://localhost:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
       <id>nexus-snapshots</id>
       <name>Snapshots Repository</name>
-      <url>http://localhost:8081/repository/diana-snapshot/</url>
+      <url>http://localhost:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
   <!-- ========== FIN DE LA NOUVELLE SECTION ========== -->
